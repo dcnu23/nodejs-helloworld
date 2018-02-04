@@ -5,7 +5,7 @@ var app = express();
 
 //app.listen(3000,function(){  // creates application server at port 3000 and has call back function
 app.listen(PORT,function(){  
-    console.log("Server up and running ,i am on port 3000");
+    console.log(`Server up and running ,i am on port ${PORT}`);
 });
 
 app.get('/',function(request,response){  //requires end point and function with request and reponse
